@@ -133,16 +133,19 @@ class SnapBot {
     }
     await delay(1000);
     let selected = "";
-    if (person == "Bestfriend") {
+    person = person.toLowerCase()
+    if (person == "bestfriends") {
       selected = "ul.UxcmY li  div.Ewflr.cDeBk.A8BRr ";
-    } else if (person == "Groups") {
+    } else if (person == "broups") {
       selected = "li div.RbA83";
     } else if (person == "friends") {
       selected = "li div.Ewflr";
     } else if (person == "all") {
       console.log("not implemented yet");
     }
-    console.log(selected);
+    else{
+      throw new Error('Option not found')
+    }
     const accounts = await this.page.$$(selected);
     for (const account of accounts) {
       const isFriendVisible = await account.evaluate(
