@@ -161,7 +161,7 @@ class SnapBot {
   }
 
   async closeBrowser(){
-    await delay(1000);
+    await delay(5000);
     await this.browser.close();
     console.log("Snapchat closed");
   }
