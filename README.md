@@ -1,6 +1,15 @@
 # SnapBot
 SnapBot is a simple automation tool for interacting with Snapchat using Puppeteer. This bot logs into a Snapchat account, captures a snap with a caption, takes a screenshot, and sends the snap to specified contacts. It also includes a logout feature for switching accounts without closing the browser. 
 
+### Here’s what it can do:
+
+- **Auto Login**: No more manually logging in! It handles the login process for you every time, saving you time and effort.
+- **Multiple Accounts**: Got more than one account? No worries! The bot can handle multiple Snapchat accounts and keep streaks going for all of them simultaneously.
+- **Snapstreak Maintenance**: The bot will make sure your streaks never break again! It sends snaps on time and ensures that your streak is always intact.
+- **Custom Captions**: The bot lets you send snaps with captions of your choice. You can even integrate APIs to make your snaps more dynamic! For example, you could connect a quote API to send daily motivational quotes, or a sports API to automatically send live football match scores. The possibilities are endless! ⚽📜
+
+
+
 ## Installation
 1. Clone the repository:
  ```bash
