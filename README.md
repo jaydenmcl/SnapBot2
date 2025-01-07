@@ -1,3 +1,5 @@
+> ⚠️ **Warning:** This project is no longer maintained ,  for further development and queries contact alewsor@gmail.com 
+
 # SnapBot
 SnapBot is a simple automation tool for interacting with Snapchat using Puppeteer. This bot logs into a Snapchat account, captures a snap with a caption, takes a screenshot, and sends the snap to specified contacts. It also includes a logout feature for switching accounts without closing the browser. 
 
