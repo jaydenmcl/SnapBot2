@@ -1,4 +1,23 @@
-> ⚠️ **Warning:** This project is no longer maintained ,  for further development and queries contact alewsor@gmail.com 
+> ⚠️ **Warning:** This project is no longer maintained ,  for further development and queries contact alewsor@gmail.com
+
+> ⚠️ **Note:** SnapBot v2 is not publicly available yet. It will be **open-sourced soon**, but until then it's available **exclusively for business inquiries**. Contact: [alewsor@gmail.com](mailto:alewsor@gmail.com)
+
+# 🚀 SnapBot v2 is Ready!
+
+After months of silent development, SnapBot is now more powerful than ever — with support for:
+
+- 📸 Image uploads  
+- 💬 Full chat automation  
+- ⚡ Snap shortcuts  
+- 🔕 Smart notification blocking  
+- 🔁 Advanced contact handling  
+- ...and a **ton** more features!
+
+While the code isn't public just yet, **SnapBot v2 will be open-sourced soon**.  
+In the meantime, it's available **only for business use**.
+
+📩 **Interested? Reach out at:** [alewsor@gmail.com](mailto:alewsor@gmail.com)
+
 
 # SnapBot
 SnapBot is a simple automation tool for interacting with Snapchat using Puppeteer. This bot logs into a Snapchat account, captures a snap with a caption, takes a screenshot, and sends the snap to specified contacts. It also includes a logout feature for switching accounts without closing the browser. 
