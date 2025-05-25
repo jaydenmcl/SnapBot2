@@ -4,6 +4,7 @@
   "description": "A bot that automates snapchat ",
   "main": "index.js",
   "devDependencies": {},
+  "type": "module",
   "scripts": {
     "bot": "node index.js"
   },

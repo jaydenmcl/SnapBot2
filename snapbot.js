@@ -66,7 +66,7 @@ export default class SnapBot {
   async login(credentials) {
     const { username, password } = credentials;
     if (username == "" || password == "") {
-      throw new Error("Credentials cant be empty");
+      throw new Error("Credentials cannot be empty");
     }
     try {
       // Enter username
