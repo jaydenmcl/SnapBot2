@@ -1,8 +1,7 @@
-> ⚠️ **Note:** SnapBot v2 is not publicly available yet. It will be **open-sourced soon**, but until then it's available **exclusively for business inquiries**. Contact: [alewsor@gmail.com](mailto:alewsor@gmail.com)
 
-# 🚀 SnapBot v2 is Ready!
-
-After months of silent development, SnapBot is now more powerful than ever — with support for:
+# ReadMe under contruction and Please dont install version 2 yet , the full dependencies are not updated yet , it might not work 
+## 🚀 SnapBot v2 is Ready!
+ SnapBot is now more powerful than ever — with support for:
 
 - 📸 Image uploads
 - 💬 Full chat automation
@@ -11,8 +10,6 @@ After months of silent development, SnapBot is now more powerful than ever — w
 - 🔁 Advanced contact handling
 - ...and a **ton** more features!
 
-While the code isn't public just yet, **SnapBot v2 will be open-sourced soon**.  
-In the meantime, it's available **only for business use**.
 
 📩 **Interested? Reach out at:** [alewsor@gmail.com](mailto:alewsor@gmail.com)
 
