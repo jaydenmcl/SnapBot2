@@ -138,6 +138,11 @@ We’d love to feature your creations in our showcase!
 Share your bots with us by opening an issue or sending an email to [alewsor@gmail.com](mailto:alewsor@gmail.com), and get your project highlighted for the community to see.
 
 
+### 📝 TODO
+ * [ ] Add comprehensive JSDoc comments for all methods and functions
+ * [ ] Implement better error handling and user-friendly error messages
+ 
+
 > [!WARNING]
 > 
 > This project is intended for educational and research purposes only. The developers and contributors are not responsible for any misuse or damages resulting from the use of this software. Users are solely responsible for ensuring their compliance with all applicable laws and terms of service.
