@@ -19,8 +19,8 @@ async function sendSnap() {
       "--use-fake-ui-for-media-stream", // Bypass permission prompt
       "--enable-media-stream",
     ],
-    userDataDir:
-      "C:\\Users\\your_name\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+    // userDataDir:
+    //   "C:\\Users\\your_name\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
   });
 
   const isLogged = await bot.isLogged();
