@@ -365,7 +365,7 @@ export default class SnapBot {
   }
 
   async listRecipients() {
-    //will only select the recipt if its in the fist render (depends on the screen size , if its not rendered on the scrren then it will not select)
+    
     await this.page.waitForSelector(
       "div.ReactVirtualized__Grid__innerScrollContainer"
     );
