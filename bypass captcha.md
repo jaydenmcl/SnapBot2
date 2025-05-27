@@ -7,6 +7,7 @@ If you're running SnapBot and encounter a **CAPTCHA during login**, follow these
 
 ---
 
+
 ###  Step-by-Step Guide
 
 1. **Run the Bot Once**  
@@ -59,3 +60,5 @@ If you're running SnapBot and encounter a **CAPTCHA during login**, follow these
 You’ve bypassed the CAPTCHA, and SnapBot should now work without interruptions.
 
 ---
+
+> 📌 Special thanks to **marcel** for pointing this out
