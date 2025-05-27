@@ -12,6 +12,8 @@ function delay(time) {
   });
 }
 
+const lastTestedVersion = "v13.38.0";
+
 export default class SnapBot {
   constructor() {
     this.page = null;
@@ -56,6 +58,29 @@ export default class SnapBot {
       await this.page.setUserAgent(
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
       );
+
+      //gets the version
+      this.page.on("console", (msg) => {
+        if (msg.type() === "log") {
+          const text = msg.text();
+          if (text.includes("Snapchat")) {
+            console.log("Snapchat for Web Build info:", text);
+            const version = text.match(/v\d+\.\d+\.\d+/);
+            const currentVersion = version[0];
+            console.log("Version", currentVersion);
+            //check version
+            if (currentVersion != lastTestedVersion) {
+              console.warn(
+                `⚠️  Warning: Some methods were last tested on version ${lastTestedVersion} \n\n` +
+                  `Detected current version is ${currentVersion}\n\n` +
+                  `Some features might not work properly.\n` +
+                  `If you encounter issues, please try updating the project using 'git pull'.\n` +
+                  `If the problem persists, consider raising an issue or contacting the developer.`
+              );
+            }
+          }
+        }
+      });
 
       await this.page.goto("https://www.snapchat.com/?original_referrer=none");
     } catch (error) {
@@ -365,7 +390,6 @@ export default class SnapBot {
   }
 
   async listRecipients() {
-    
     await this.page.waitForSelector(
       "div.ReactVirtualized__Grid__innerScrollContainer"
     );
