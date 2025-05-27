@@ -34,7 +34,7 @@ async function sendSnap() {
   await bot.handlePopup();
   await bot.captureSnap({ caption: "Hello world" });
   await bot.screenshot({ path: "screenshot.png" });
-  await bot.send("BestFriends");
+  await bot.send("BestFriends");  // or bot.useShortcut([)
   await bot.wait(2000);
   await bot.closeBrowser();
 }
