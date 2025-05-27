@@ -78,6 +78,9 @@ npm run bot
 
 This command will start SnapBot, logging into Snapchat, capturing a snap, and sending it to your specified contacts.
 
+If you run into a CAPTCHA when using SnapBot, see this guide for a solution:  
+[Bypass CAPTCHA](https://github.com/Emmanuel-Rods/SnapBot/blob/main/bypass%20captcha.md)
+
 ## 📚 Available Methods
 
 SnapBot provides a comprehensive set of methods to interact with Snapchat:
