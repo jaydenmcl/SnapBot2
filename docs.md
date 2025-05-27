@@ -14,8 +14,6 @@ Whether you're automating daily snaps, managing multiple accounts, or building c
 
 ## 🚀 Getting Started (Developer Preview)
 
-SnapBot isn't available publicly yet — but here’s a technical breakdown of what’s possible and how simple it is to integrate.
-
 At its core, SnapBot wraps Snapchat's browser interface into clean, async JavaScript functions. Below is an overview of the key methods you'll be using when building automation workflows.
 
 SnapBot exposes a set of methods that offer fine-grained control over Snapchat Web automation. Here's a list of the available methods:
